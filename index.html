@@ -3,19 +3,47 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Інформаційна система для фінансового та складського обліку малого бізнесу." />
+  <meta name="description" content="Застосунок дозволяє здійснювати облік товарів, продажів, надходжень та формувати запити на закупівлю. Має зручний інтерфейс і автоматизує основні процеси обліку." />
   <meta name="keywords" content="облік, фінанси, склад, малий бізнес, інформаційна система" />
   <meta name="author" content="Valerii Sapunov">
 
-  <title>Інформаційна система обліку</title>
+  <!-- Open Graph метатеги -->
+  <meta property="og:title" content="Інформаційна система для фінансового та складського обліку малого бізнесу." />
+  <meta property="og:description" content="Застосунок дозволяє здійснювати облік товарів, продажів, надходжень та формувати запити на закупівлю. Має зручний інтерфейс і автоматизує основні процеси обліку." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/favicon/apple-touch-icon.png" />
+
+  <!-- Теги Schema.org -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Інформаційна система для фінансового та складського обліку малого бізнесу.",
+      "description": "Застосунок дозволяє здійснювати облік товарів, продажів, надходжень та формувати запити на закупівлю. Має зручний інтерфейс і автоматизує основні процеси обліку.",
+      "operatingSystem": "Windows",
+      "applicationCategory": "BusinessApplication",
+      "author": {
+        "@type": "Person",
+        "name": "Валерій Сапунов"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+38096945****",
+        "areaServed": "UA",
+        "availableLanguage": "uk"
+      }
+    }
+  </script>
+
+  <title>Інформаційна система для фінансового та складського обліку малого бізнесу.</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" href="style.css" />
   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
   <link rel="manifest" href="assets/favicon/site.webmanifest">
-
 </head>
+
 <body>
 
 <header>
@@ -25,8 +53,8 @@
 
 <main>
 
-  <section class="keywords">
-    <h3>Ключові слова</h3>
+  <section class="keywords" aria-labelledby="keywords-heading">
+    <h3 id="keywords-heading">Ключові слова</h3>
     <ul>
       <li>облік</li>
       <li>фінанси</li>
@@ -36,21 +64,18 @@
     </ul>
   </section>
 
-  <section >
-        <h3>MyShop</h3>
-        <p>Застосунок дозволяє здійснювати облік товарів, продажів, надходжень та формувати запити на закупівлю. Має зручний інтерфейс і автоматизує основні процеси обліку.</p>
+  <section aria-labelledby="myshop-heading">
+    <h3 id="myshop-heading">MyShop</h3>
+    <p>Застосунок дозволяє здійснювати облік товарів, продажів, надходжень та формувати запити на закупівлю. Має зручний інтерфейс і автоматизує основні процеси обліку.</p>
   </section>
 
-
-  <section >
-    <h3>Мета дослідження</h3>
+  <section aria-labelledby="research-goal-heading">
+    <h3 id="research-goal-heading">Мета дослідження</h3>
     <p>Розробити якісне, доступне, зручне у використанні програмне забезпечення для фінансового та складського обліку малого бізнесу.</p>
   </section>
 
-
-
-  <section class="tasks">
-    <h3>Основні завдання</h3>
+  <section class="tasks" aria-labelledby="tasks-heading">
+    <h3 id="tasks-heading">Основні завдання</h3>
     <ol>
       <li>Проаналізувати потреби малого бізнесу в облікових системах.</li>
       <li>Розробити інтуїтивно зрозумілий інтерфейс для користувачів.</li>
@@ -59,31 +84,26 @@
     </ol>
   </section>
 
-
-
-  <section class="visuals">
-    <h3>Прототипи майбутнього застосунку:</h3>
-
+  <section class="visuals" aria-labelledby="prototypes-heading">
+    <h3 id="prototypes-heading">Прототипи майбутнього застосунку:</h3>
   </section>
 
-
-
-
-  <section class="results">
-    <h3>Очікувані результати</h3>
+  <section class="results" aria-labelledby="results-heading">
+    <h3 id="results-heading">Очікувані результати</h3>
     <p>Отримати універсальну систему для малого бізнесу, яка полегшить ведення обліку та дозволить ефективно керувати ресурсами.</p>
   </section>
 
-  <section class="contacts">
-    <h3>Контактна інформація</h3>
-  </section>
+  <section class="contacts" aria-labelledby="contacts-heading">
+    <h3 id="contacts-heading">Контактна інформація</h3>
 
+  </section>
 
 </main>
 
 <footer>
   <p>&copy; 2025 Валерій Сапунов</p>
 </footer>
+
 <script src="carousel.js"></script>
 </body>
 </html>
