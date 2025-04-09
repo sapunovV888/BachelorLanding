@@ -37,6 +37,7 @@
 
   <title>Інформаційна система для фінансового та складського обліку малого бізнесу.</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="style.css" />
   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
@@ -47,6 +48,7 @@
 <body>
 
 <header>
+  <img src="assets/SSU.png" alt="Логотип університету" class="logo" />
   <h1>Інформаційна система фінансового та складського обліку для малого бізнеса</h1>
   <h2>Financial and Inventory Accounting Information System for Small Businesses</h2>
 </header>
@@ -64,17 +66,32 @@
     </ul>
   </section>
 
-  <section aria-labelledby="myshop-heading">
-    <h3 id="myshop-heading">MyShop</h3>
-    <p>Застосунок дозволяє здійснювати облік товарів, продажів, надходжень та формувати запити на закупівлю. Має зручний інтерфейс і автоматизує основні процеси обліку.</p>
+  <section aria-labelledby="myshop-heading" class="short-description">
+    <div class="description-content">
+      <div class="text">
+        <h3 id="myshop-heading">MyShop</h3>
+        <p>Застосунок дозволяє здійснювати облік товарів, продажів, надходжень та формувати запити на закупівлю. Має зручний інтерфейс і автоматизує основні процеси обліку.</p>
+      </div>
+      <div class="image">
+        <img src="assets/1.png" alt="Зображення застосунку" />
+      </div>
+    </div>
   </section>
 
-  <section aria-labelledby="research-goal-heading">
+
+
+  <section aria-labelledby="research-goal-heading" class="goal">
     <h3 id="research-goal-heading">Мета дослідження</h3>
     <p>Розробити якісне, доступне, зручне у використанні програмне забезпечення для фінансового та складського обліку малого бізнесу.</p>
   </section>
 
-  <section class="tasks" aria-labelledby="tasks-heading">
+  <section class="relevance" aria-labelledby="relevance-heading">
+    <h3 id="relevance-heading">Актуальність теми</h3>
+    <p>Ефективне управління фінансами та складськими запасами є критично важливим для виживання та розвитку малого бізнесу. У сучасних умовах, коли українські підприємства відмовляються від російського ПЗ, зростає потреба в національних альтернативах. Точний облік дозволяє зменшити витрати та забезпечити фінансову стабільність. Використання спеціалізованих рішень є важливим кроком до автоматизації бізнес-процесів. Саме тому створення якісного програмного забезпечення є актуальним як ніколи.</p>
+  </section>
+
+
+  <section class="tasks" aria-labelledby="tasks-heading" class="tasks">
     <h3 id="tasks-heading">Основні завдання</h3>
     <ol>
       <li>Проаналізувати потреби малого бізнесу в облікових системах.</li>
@@ -86,6 +103,21 @@
 
   <section class="visuals" aria-labelledby="prototypes-heading">
     <h3 id="prototypes-heading">Прототипи майбутнього застосунку:</h3>
+    <div class="carousel">
+      <div class="carousel-track">
+        <img src="assets/1.png" alt="Прототип 1">
+        <img src="assets/2.png" alt="Прототип 2">
+        <img src="assets/3.png" alt="Прототип 3">
+        <img src="assets/4.png" alt="Прототип 4">
+        <img src="assets/5.png" alt="Прототип 5">
+        <img src="assets/6.png" alt="Прототип 6">
+      </div>
+      <button class="carousel-btn prev">&#10094;</button>
+      <button class="carousel-btn next">&#10095;</button>
+    </div>
+    <div class="carousel-description">
+      <p id="carousel-text">Головне меню застосунку. За допомогою нього користувач може переходити до інших вікон програми.</p>
+    </div>
   </section>
 
   <section class="results" aria-labelledby="results-heading">
@@ -95,7 +127,11 @@
 
   <section class="contacts" aria-labelledby="contacts-heading">
     <h3 id="contacts-heading">Контактна інформація</h3>
-
+    <ul class="contact-list">
+      <li><i class="fas fa-envelope"></i> <a href="mailto:sapunovvaleriy2003@gmail.com">sapunovvaleriy2003@gmail.com</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/sapunovV888" target="_blank">github.com/sapunovV888</a></li>
+      <li><i class="fas fa-phone"></i> <a href="tel:+38096945****">+38 (096) 945-**-**</a></li>
+    </ul>
   </section>
 
 </main>
